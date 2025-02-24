@@ -3,9 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola mundo</title>
+    <title>Áctividad1</title>
 </head>
 <body>
-    <h1>hola mundo</h1>
+<header>
+    <h1>TechWave</h1>
+    <!-- encabezado de la pagina -->
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre la tienda</a></li>
+                <li><a href="#servicios">Computadoras disponibles</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#sobredesarrollador">Informacion sobre el Desarrollador</a></li>
+            </ul>
+        </nav>
+</header>
+<main>
+    <section id="sobre">
+        <!-- habla sobre la pagina como tal -->
+        <h2>Sobre nosotros</h2>
+        <p>TechWave es una tienda especializada en la venta de computadoras y accesorios tecnológicos. Nos enorgullecemos de ofrecer a nuestros clientes las últimas innovaciones y productos de alta calidad. Desde potentes laptops y PCs de escritorio hasta componentes y periféricos, tenemos todo lo que necesitas para tus necesidades tecnológicas. Nuestro equipo de expertos está siempre listo para asesorarte y ayudarte a encontrar el producto perfecto. En TechWave, nos apasiona la tecnología y estamos comprometidos a brindar una experiencia de compra excepcional. ¡Visítanos y descubre todo lo que tenemos para ofrecer!</p>
+        <figure>
+            <img src="./img/img1.jpg" alt="Foto de perfil" width="25%">
+            <figcaption>imagen decorativa</figcaption>
+        </figure>
+    </section>
+    <section id="servicios">
+        <!-- lista de productos disponibles -->
+        <h2>Productos disponibles</h2>
+        <ul>
+            <li>Laptops: HP, Dell, Lenovo</li>
+            <li>PCs de escritorio: Acer, Asus, Gigabyte</li>
+            <li>Componentes y periféricos: Mouse, Teclado, Headset</li>
+        </ul>
+        <a href="https://micrositios.dian.gov.co/ruta-de-la-formalizacion/pasos-de-la-formalizacion/" target="_blank">Regulacion</a>
+    </section>
+    <section>
+        <h2>Tabla de precios</h2>
+        <table border="1">
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Laptop HP</td>
+                <td>$4.900.000</td>
+            </tr>
+            <tr>
+                <td>Laptop Dell</td>
+                <td>$4.000.000</td>
+            </tr>
+            <tr>
+                <td>Laptop Lenovo</td>
+                <td>$2.500.000</td>
+            </tr>
+            <tr>
+                <td>PC Asus</td>
+                <td>$3.500.000</td>
+            </tr>
+            <tr>
+                <td>PC Gigabyte</td>
+                <td>$3.500.000</td>
+            </tr>
+            <tr>
+                <td>Mouse Logitech</td>
+                <td>$105.000</td>
+            </tr>
+            <tr>
+                <td>Teclado Genius</td>
+                <td>$210.000</td>
+            </tr>
+            <tr>
+                <td>Headset Sony</td>
+                <td>$420.000</td>
+            </tr>
+        </table>
+       
+    </section>
+    
+    <!-- Formulario de Contacto dentro de una tabla -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <table border="2">
+            <caption>Formulario de Contacto</caption>
+            <form >
+                <tr>
+                    <td><label for="name">Nombre Completo:</label></td>
+                    <td><input type="text" required></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="email">Correo Electrónico:</label></td>
+                    <td><input type="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Mensaje:</label></td>
+                    <td><textarea rows="4" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button type="submit" >Enviar</button>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </section> 
+   
+</main>
+<footer id="sobredesarrollador">
+    <!-- Pie de Pagina -->
+    <h2>Sobre el Desarrollador</h2>
+        <p>Juan Sebastian Nuñéz Campo <br> 20 años <br> Barranquila-Atlantico</p>
+        <p>Si deseas saber más sobre mí, sígueme en mis redes sociales:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+        <p>&copy; 2025 TechWave. Todos los derechos reservados.</p>
+
+</footer>  
 </body>
 </html>
