@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Áctividad1</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<header>
-    <h1>TechWave</h1>
-    <!-- encabezado de la pagina -->
-        <nav>
-            <ul>
+<header class="header">
+    <h1 id="Titulo">TechWave</h1>
+    <!-- enc80px;do de la pagina -->
+        <nav class="navbar">
+            <ul class="nav-links">
                 <li><a href="#sobre">Sobre la tienda</a></li>
                 <li><a href="#servicios">Computadoras disponibles</a></li>
                 <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#sobredesarrollador">Informacion sobre el Desarrollador</a></li>
                 <li><a href="#sobredesarrollador">Informacion sobre el Desarrollador</a></li>
             </ul>
         </nav>
@@ -23,62 +25,91 @@
         <!-- habla sobre la pagina como tal -->
         <h2>Sobre nosotros</h2>
         <p>TechWave es una tienda especializada en la venta de computadoras y accesorios tecnológicos. Nos enorgullecemos de ofrecer a nuestros clientes las últimas innovaciones y productos de alta calidad. Desde potentes laptops y PCs de escritorio hasta componentes y periféricos, tenemos todo lo que necesitas para tus necesidades tecnológicas. Nuestro equipo de expertos está siempre listo para asesorarte y ayudarte a encontrar el producto perfecto. En TechWave, nos apasiona la tecnología y estamos comprometidos a brindar una experiencia de compra excepcional. ¡Visítanos y descubre todo lo que tenemos para ofrecer!</p>
-        <figure>
-            <img src="./img/img1.jpg" alt="Foto de perfil" width="25%">
-            <figcaption>imagen decorativa</figcaption>
-        </figure>
     </section>
     <section id="servicios">
         <!-- lista de productos disponibles -->
         <h2>Productos disponibles</h2>
-        <ul>
-            <li>Laptops: HP, Dell, Lenovo</li>
-            <li>PCs de escritorio: Acer, Asus, Gigabyte</li>
-            <li>Componentes y periféricos: Mouse, Teclado, Headset</li>
-        </ul>
-        <a href="https://micrositios.dian.gov.co/ruta-de-la-formalizacion/pasos-de-la-formalizacion/" target="_blank">Regulacion</a>
-    </section>
-    <section>
-        <h2>Tabla de precios</h2>
-        <table border="1">
-            <tr>
-                <th>Producto</th>
-                <th>Precio</th>
-            </tr>
-            <tr>
-                <td>Laptop HP</td>
-                <td>$4.900.000</td>
-            </tr>
-            <tr>
-                <td>Laptop Dell</td>
-                <td>$4.000.000</td>
-            </tr>
-            <tr>
-                <td>Laptop Lenovo</td>
-                <td>$2.500.000</td>
-            </tr>
-            <tr>
-                <td>PC Asus</td>
-                <td>$3.500.000</td>
-            </tr>
-            <tr>
-                <td>PC Gigabyte</td>
-                <td>$3.500.000</td>
-            </tr>
-            <tr>
-                <td>Mouse Logitech</td>
-                <td>$105.000</td>
-            </tr>
-            <tr>
-                <td>Teclado Genius</td>
-                <td>$210.000</td>
-            </tr>
-            <tr>
-                <td>Headset Sony</td>
-                <td>$420.000</td>
-            </tr>
-        </table>
-       
+        <div class="cards-container">
+
+            <div class="card">
+                <img src="/imagenes/img1.jpg" alt="pc">
+                <div class="card-header">
+                    <h3>MSI Titan 18 HX</h3>
+                </div>
+                <div class="card-body">
+                    <p>Lo mejor de nuestra gama alta en laptos, si lo quieres es una experencias a otro nivel, este portatil es para ti.</p>
+                    <button type="button">
+                        <a href="https://latam.msi.com/Laptop/Titan-18-HX-A14VX" target="_blank">Ver mas</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/imagenes/img2.jpg" alt="pc">
+                <div class="card-header">
+                    <h3>Acer Nitro 5</h3>
+                </div>
+                <div class="card-body">
+                    <p>Perfecta para aquellos que buscan una laptop economica pero al mismo tiempo que albergue una gran potencia.</p>
+                    <button type="button">
+                        <a href="https://www.acer.com/mx-es/laptops/nitro/nitro-5" target="_blank">Ver mas</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="" alt="pc">
+                <div class="card-header">
+                    <h3>Asus TUF Gaming F15</h3>
+                </div>
+                <div class="card-body">
+                    <p>Otra opcion incrible si lo que buscas es economizar pero al mismo tiempo optener una increible laptop, no te arrepentiras.</p>
+                    <button type="button">
+                        <a href="" target="_blank">Ver mas</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="" alt="Mouse">
+                <div class="card-header">
+                    <h3>Mouses</h3>
+                </div>
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in faucibus lectus, vel ultricies neque.</p>
+                    <button type="button">
+                        <a href="" target="_blank">Ver mas</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="" alt="Mouse">
+                <div class="card-header">
+                    <h3>Mouses</h3>
+                </div>
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in faucibus lectus, vel ultricies neque.</p>
+                    <button type="button">
+                        <a href="" target="_blank">Ver mas</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="" alt="Mouse">
+                <div class="card-header">
+                    <h3>Mouses</h3>
+                </div>
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in faucibus lectus, vel ultricies neque.</p>
+                    <button type="button">
+                        <a href="" target="_blank">Ver mas</a>
+                    </button>
+                </div>
+            </div>
+            
+        </div>
     </section>
     
     <!-- Formulario de Contacto dentro de una tabla -->
