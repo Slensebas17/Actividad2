@@ -8,6 +8,7 @@ body {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 10px;
 }
 #Titulo {
     display: flex-direction;
@@ -29,6 +30,7 @@ nav ul {
     padding: 15px 20px;
     background-color: #333;
     color: #fff;
+    
 }
 
 .navbar .nav-links {
@@ -66,12 +68,44 @@ nav ul {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     padding: 10px;
+    
 }
 
 .card img {
     width: 100%;
     height: auto;
 }
+.card a {
+    display: inline-block;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+.card button {
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.3s ease;
+}
+
+.card button a:hover{
+    color: #f39c12;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto; 
+    border-radius: 10px;
+}
+
 
 @media (min-width: 1024px) {
     .cards-container {
